@@ -7,6 +7,10 @@
 </head>
   <body>
     <a-scene>
+       <a-entity text="value: Cute Cube; color: #FAFAFA; width: 5; anchor: align; align: center"
+          position="0 0.5 -3"
+          scale="1.5 1.5 1.5">
+        </a-entity>     
         <a-entity environment="preset: forest; dressingAmount: 500"></a-entity>
 
       <a-box 
@@ -23,16 +27,13 @@
     position="-3 1 -4">
         </a-sound>
         
-        <a-entity text="value: Cute Cube; color: #FAFAFA; width: 5; anchor: align; align: center"
-          position="0 0.5 -3"
-          scale="1.5 1.5 1.5">
-        </a-entity>     
 
         <a-entity 
         gltf-model="url(matilda.glb)" 
         scale="0.04 0.04 0.04"
         position="0 0 -8">
         </a-entity>
+       
    
 
     <a-entity id="rig"
